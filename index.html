@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+<h1><a href="tag.html" target="_self" title="home">WEB</a></h1>
+
+<h2>HTML-tag</h2>
+2) target
+Ex)
+<a href = "URL" title="설명" target="문서가 로드될 대상">링크이름</a>
+링크이름은 텍스트일 수 도 이미지일 수 도 있음
+
+target(_blank, _self, _parent, _top, framename)
+framename은 내가 지정하는거고 나머지는 약속되어있는거임
+target 사용해도되고 안해도 됨, 사용 안하면 그창에서 바로 띄움
+target="_blank" : 새 창을 만들어서 url을 띄움
+target="_self" : 타겟값이 default 즉, target을 안쓰는것과 같은 일
+title="framename" : 링크이름 에 마우스를 올려 놓으면 튤팁(상세 설명 메시지)이 나오게 됨
+<br>
+<strong>★★<a href = "http://opengoldlane.org#summary" title="framename">생활코딩</a></strong>
+<br>
+<strong><u>강조하면서 밑줄까지</u></strong> 위에 생활코딩은 태그로 만들어져서 밑줄이 자동생성된듯
+<br>
+url로 이동후 summary라는 앵커로 이동한다 (코드상으로 줄을 바꿨으나 실제로 줄이 바뀌지 않는다.)
+현재 페이지에서 summary라는 부분으로 스크롤이 옮겨짐 즉 목차에서 어느 목차를 선택하면
+그곳으로 빠른 이동하는 것이라고 생각하면 됨
+
+<br>
+<h2>통계</h2>
+가장 많이 쓰는 태그들 <br>
+html, head, body,  title, meta, div, a, script, link, img, span, p, li, ul, style, br, h2, input, h1, form, h3, nav, footer, header, iframe, button, strong, i
+
+<h3>1) img tag</h3>
+<img src="ipad.jpg" width="100%" alt="">
+
+<br>
+<br>
+<h1> 부모(parent)와 자식(child)</h1>
+
+상위 태그 안에 하위 태그
+<br>
+<br>
+<ul>
+  <li>1. <a href="https://opentutorials.org/course/3084"
+    target="_blank" title="생활코딩 WEB1 - HTML & Internet">HTML</a></li>
+  <li>2. <a href="https://opentutorials.org/course/3086
+    " target="_blank" title="생활코딩 WEB2 - CSS">CSS</a></li>
+  <li>3. <a href="https://opentutorials.org/course/3085"
+    target="_blank" title="생활코딩 WEB2 - JavaScript">JavaScript</a></li>
+  <li>4. <a href="tag2.html"
+    target="_blank" title="test">테스트용 링크</a></li>
+</ul>
+<ol>
+  <li> HTML</li>
+  <li> CSS</li>
+  <li> JavaScript</li>
+</ol>
+
+ul이 상위태그 li가 하위 태그 <br>
+그냥 br로 하는 방법도 있으나 이게 더 코드 가독성이 더 좋은 듯 <br>
+ol은 ul의 다른 버전인데 리스트 앞에 숫자가 생김 숫자는 자동으로 갱신됨 <br>
+
+<h1>이제 h1에 한글 사용 가능해짐! 이유는 meta!</h1>
+또 h1만 된다고 생각해라...h1~h6전부 가능
+
+<h1> 태그의 제왕 link </h1>
+
+<a href="https://opentutorials.org/course/3084/18418"
+target="_blank" title="생활코딩 Html">생활코딩 Html 태그의 제왕</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
