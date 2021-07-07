@@ -1,0 +1,330 @@
+body{
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0;
+  /*font-family: 'Noto Sans KR', AppleSDGothicNeo-Regular, 'Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif; 뭔지 모름*/
+}
+html{
+  margin: 0;
+}
+header{
+  z-index: 1;
+  width: 100%;
+  padding-right: 13px;
+  position: absolute;
+  top: 0px;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: white;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 160px 1fr;
+}
+@media (max-width:700px){
+  #grid{
+    display: block;
+  }
+}
+.scroll{
+  height: 65px;
+}
+.logobox{
+  padding-left: 95px;
+  width: 115px;
+  height: 21px;
+  left: 30px;
+}
+.indexbox{
+  width: 377px;
+  height: 29px;
+  position: relative;
+  bottom: 20px;
+  float: right;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+li{
+  float: left;
+  margin-right: 20px;
+}
+li a{
+  color: black;
+  font-size: 24px;
+}
+.one{
+  display: table;
+  position: relative;
+  width: 1920px;
+  height: 900px;
+}
+.first{
+  width: 1920px;
+  height: inherit;
+}
+.target{
+  padding:
+}
+.size1{
+  width: 100%;
+  height: 100%;
+}
+.textmove{
+  position: relative;
+  top: 387px;
+  left: 279px;
+  width: 797px;
+  height: 281px;
+  font-style: normal;
+}
+.text11{
+  font-size: 38px;
+  position: absolute;
+}
+.text12{
+  font-size: 20px;
+  position: absolute;
+  top: 58px;
+  line-height: 33px;
+}
+.two{
+  width: 1920px;
+  height: 864px;
+}
+.sertextin{
+   /*글씨 정중앙*/
+  margin-top: 103px;
+  font-size: 30px;
+  text-align: center;
+}
+.sertextout{
+  width: 1024px;
+  height: 45px;
+  text-align: center;
+}
+.serimg{
+  width: 1024px;
+  height: 746px;
+  position: relative;
+  top: 78px;
+  left: 448px;
+  right: 448px;
+}
+.apppbutton{
+  height: inherit;
+  width: 1024px;
+}
+.buttoninfo{
+  position: relative;
+  width: 466px;
+  height: 235px;
+  top: 201px;
+  right: 3px;
+  float: right;
+  font-style: normal;
+}
+.wait{
+  color: #348DCD;
+  font-size: 30px;
+}
+b{
+  font-size: 20px;
+}
+p{
+  line-height: 40px;
+}
+.three{
+  width: 1920px;
+  height: 800px;
+  background-color: rgb(251, 251, 251);
+}
+.noticebox{
+  width: 1024px;
+  height: 722px;
+  position: relative;
+  top: 78px;
+  left: 448px;
+  right: 448px;
+}
+.notice{
+  position: relative;
+  top: 132px;
+  width: 380px;
+  font-size: 30px;
+  margin: 0px;
+}
+.gongsi{
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+span .noti{
+  font-size: 20px;
+  font-weight: normal;
+}
+/*.underline{
+  width: 1024px;
+  height: 1px;
+  position: relative;
+  border-top: 1px;
+  border-color: #348DCD;
+}*/
+
+.hr1{
+  position: relative;
+  width: 1024px;
+  top: 163px;
+  margin: 0px;
+}
+.noticeboard{
+  width: 300px;
+  height: 33px;
+  position: relative;
+  top: 186px;
+  left: 76px;
+  font-size: 14px;
+}
+.hr2{
+  position: relative;
+  width: 1024px;
+  top: 193px;
+  margin: 0px;
+}
+.moretext{
+  color: black;
+}
+.morebutton{
+  position: relative;
+  top: 230px;
+  left: 921px;
+  width: 113px;
+}
+.morebutton .moretext{
+  font-size: 25px;
+}
+.four{
+  width: 100%;
+  height: 800px;
+}
+.partner{
+  width: 1024px;
+  height: 800px;
+  position: relative;
+  left: 512px;
+  text-align: center;
+}
+.tnertext{
+  width: 692px;
+  height: 80px;
+  position: relative;
+  top: 101px;
+  left: 79px;
+}
+.partner .P, .B, .L{
+  font-size: 70px;
+}
+.partner .P{
+  font-weight: 800;
+}
+.partner .w{
+  font-weight: 400;
+  font-size: 35px;
+}
+.partner .B{
+  font-weight: 800;
+}
+.partner .L{
+  font-weight: 800;
+  color: blue;
+}
+.twozeronenine{
+  width: 935px;
+  height: 207px;
+  font-size: 27px;
+  position: relative;
+  top: 188px;
+  right: 21px;
+}
+.connect{
+  width: 1024px;
+  height: 163px;
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+  top: 295px;
+  left: 69px;
+  text-align: left;
+}
+.connect .callpic{
+  width: 49px;
+  height: 34px;
+}
+.gameng{
+  margin-right: 107px;
+}
+.address{
+  font-weight: normal;
+  font-size: 22px;
+}
+.five{
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(251, 251, 251);
+}
+.fivebox{
+  width: 1024px;
+  height: inherit;
+  margin: auto;
+  padding-top: 120px;
+}
+.download{
+  width: 979px;
+  height: 459px;
+  padding-top: 210px;
+}
+.app, .load{
+  font-size: 60px;
+  font-weight: bold;
+}
+.app{
+}
+.load{
+  color: #348DCD;
+}
+.downloadtextbox{
+  position: relative;
+  width: 979px;
+  height: 263px;
+}
+.downimg{
+  /*width: 300px;
+  height: 300px;*/
+}
+.cellphone{
+  width: 371px;
+  position: relative;
+  left: 502px;
+  bottom: 406px;
+}
+.six{
+  width: 100%;
+  height: 400px;
+  background: #f0f0f0;
+}
+.sixtextbox{
+  text-align: center;
+  padding-top: 50px;
+  height: 194px;
+}
+.snsbtn{
+  /*text-align: center;*/
+  padding-left: 850px;
+  padding-top: 50px;
+}
